@@ -1,0 +1,16 @@
+{
+    "name": "talesoft/tale-jade-bootstrap",
+    "description": "A bootstrap to get a Tale Jade powered website up and running quickly",
+    "type": "project",
+    "require": {
+        "talesoft/tale-jade": ">=1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Torben Koehn",
+            "email": "tk@talesoft.io"
+        }
+    ],
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,7 @@
+
+
+RewriteEngine On
+
+RewriteRule ^/?$ index.php [QSA]
+RewriteRule ^/?([a-zA-Z0-9\-_]+)\.html$ index.php?page=$1 [QSA]
+RewriteRule ^/?([a-zA-Z0-9\-_]+)/([a-zA-Z0-9\-_]+)\.html$ index.php?page=$1&action=$2 [QSA]
