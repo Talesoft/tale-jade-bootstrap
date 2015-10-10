@@ -20,13 +20,12 @@ if (file_exists(__DIR__.'/config.php'))
 
 
 $renderer = new Renderer([
-    'compiler' => [
+    'compilerOptions' => [
         'pretty' => $config['pretty'],
         'paths' => [
             __DIR__.'/views/'
         ]
     ],
-    'adapter' => 'file',
     'adapterOptions' => [
         'path' => __DIR__.'/cache',
         'lifeTime' => $config['cache'] ? 3600 : 0
